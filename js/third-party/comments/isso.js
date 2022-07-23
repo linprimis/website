@@ -1,1 +1,0 @@
-document.addEventListener("page:loaded",()=>{CONFIG.page.comments&&NexT.utils.loadComments("#isso-thread").then(()=>NexT.utils.getScript(CONFIG.isso+"js/embed.min.js",{attributes:{dataset:{isso:""+CONFIG.isso},"data-isso-lang":"zh_CN"},parentNode:document.querySelector("#isso-thread")}))});
